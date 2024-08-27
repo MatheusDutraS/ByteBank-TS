@@ -1,0 +1,10 @@
+{
+  "devDependencies": {
+    "typescript": "^5.2.2"
+  },
+  "scripts": {
+    "start": "concurrently \"npm run watch\" \"npm run server\"",
+    "compile": "tsc --build",
+    "watch": "tsc --watch"
+  }
+}
